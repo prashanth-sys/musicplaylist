@@ -12,7 +12,7 @@ const SongsList = props => {
   return (
     <div className="songs-list-container">
       <>
-        <img src={imageUrl} alt="krishna" className="image" />
+        <img src={imageUrl} alt="track" className="image" />
         <div className="song-type">
           <p className="song-name">{name}</p>
           <p className="song-genre">{genre}</p>
@@ -23,7 +23,14 @@ const SongsList = props => {
           <p className="time">{duration}</p>
         </div>
         <div className="delete-icon">
-          <AiOutlineDelete className="icon" onClick={onClickDeleteIcon} />
+          <button
+            data-testid="delete"
+            onClick={onClickDeleteIcon}
+            type="button"
+            className="button"
+          >
+            <AiOutlineDelete className="icon" />.
+          </button>
         </div>
       </>
     </div>

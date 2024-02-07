@@ -7,7 +7,7 @@ import './index.css'
 class MusicPage extends Component {
   state = {
     searchInput: '',
-    songs: this.props.initialTracksList,
+    songs: this.initialTracksList,
   }
 
   onChangeInput = event => {
@@ -36,7 +36,7 @@ class MusicPage extends Component {
         <div className="songs-play-list">
           <h1 className="song-list">Songs Playlist</h1>
           <input
-            type="text"
+            type="search"
             className="input"
             placeholder="Search"
             value={searchInput}

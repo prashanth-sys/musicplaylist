@@ -10,3 +10,65 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.bg-container {
+  background-color: #152850;
+  background-size: cover;
+  height: 300vh;
+}
+.image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.name {
+  color: #ffffff;
+  margin-left: 9%;
+  font-family: 'Roboto';
+  font-size: 49px;
+  font-weight: 400;
+}
+.role {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-left: 9%;
+  margin-top: 0px;
+  margin-bottom: 6%;
+}
+.song-list {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 3%;
+}
+.input {
+  background-color: transparent;
+  border: 1 solid #cbd5e1;
+  height: 29px;
+  width: 300px;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+}
+.songs-play-list {
+  display: flex;
+  justify-content: space-between;
+}
+.empty-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 11%;
+  font-size: 45px;
+}

@@ -47,3 +47,7 @@
   color: #cbd5e1;
   margin-right: 3%;
 }
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
