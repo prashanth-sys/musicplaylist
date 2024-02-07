@@ -1,10 +1,10 @@
 .image {
   width: 13%;
   margin: 7px;
+  margin-left: 4%;
 }
 .songs-list-container {
   display: flex;
-  justify-content: space-between;
 }
 .song-name {
   font-family: 'Roboto';
@@ -22,12 +22,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 32px;
 }
 .time-container {
   font-family: 'Roboto';
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 59%;
 }
 .time {
   color: #ffffff;
@@ -37,6 +39,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 5%;
 }
 .icon {
   margin-left: 5px;
