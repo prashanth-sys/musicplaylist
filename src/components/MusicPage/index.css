@@ -41,8 +41,20 @@
   margin-top: 2%;
   border-radius: 5px;
   padding: 5px;
+  color: #ffffff;
 }
 .songs-play-list {
   display: flex;
   justify-content: space-between;
+}
+.empty-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 11%;
 }
